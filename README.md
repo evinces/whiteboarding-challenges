@@ -1,7 +1,7 @@
 # Whiteboarding Challenges
 
 
-These are expamles of whiteboarding questions I have encountered in the real world, paired with my solutions.
+These are examples of whiteboarding questions I have encountered in the real world, paired with my solutions.
 
 > *Missing Number*
 > Given a list of numbers that contains two of each integer from 1 through n, find the number that is missing from the list.
