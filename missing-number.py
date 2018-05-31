@@ -19,10 +19,10 @@ Example:
 def missing_number(nums):
     """Return the missing int from nums"""
 
-    n = (len(nums) + 1) / 2
-    target_sum = (n + 1) * (n / 2)
+    n = int((len(nums) + 1) / 2)
+    target_sum = (n + 1) * n
 
     if n % 2 == 1:
-        target_sum += (n + 1) / 2
+        target_sum += n + 1
 
     return target_sum - sum(nums)
