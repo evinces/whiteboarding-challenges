@@ -1,3 +1,4 @@
+#!/bin/python3
 """
 Part 1
 
@@ -12,8 +13,6 @@ counts = [1, 2, 3]
 Create a class SetCard that models a Set card.
 This class must include a means of printing a SetCard as a string.
 Then print the string representation of a card.
-
-https://paper.dropbox.com/doc/Example-Set-Game-q0N46YK4ZNjVtyOkRfRvD
 
 Part 2
 
@@ -49,6 +48,7 @@ Write a function find_set() in class SetGame that finds one possible set
 among the table cards and prints it out. The function should return a boolean
 indicating whether or not a set was found. Handle the case where there are no sets in a graceful manner.
 """
+
 import random
 
 
